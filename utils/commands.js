@@ -1,0 +1,17 @@
+export const COMMANDS = [
+    'up',
+    'ls',
+    'cd',
+    'cat',
+    'add',
+    'mkdir',
+    'rn',
+    'cp',
+    'mv',
+    'rm',
+    'os',
+    'hash',
+    'hash',
+    'compress',
+    'decompress',
+];
