@@ -27,7 +27,7 @@ export default async function compress(file, dest) {
         })
         .on('error', (err) => {
             MESSAGES.error();
-            MESSAGES.error('File compression failed, make sure you passed correct destination (e.g. file.txt.br)');
+            MESSAGES.error('File compression failed, make sure you passed correct destination (e.g. some_dir)');
             console.log(err);
         });
 }

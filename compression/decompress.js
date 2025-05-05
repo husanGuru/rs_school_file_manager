@@ -27,7 +27,7 @@ export default async function decompress(file, dest) {
         })
         .on('error', (err) => {
             MESSAGES.error();
-            MESSAGES.error('File decompression failed, make sure you passed correct destination (e.g. file.txt)');
+            MESSAGES.error('File decompression failed, make sure you passed correct destination (e.g. some_dir)');
             console.log(err);
         });
 }
